@@ -1,4 +1,4 @@
-# Big Data Hackathon for San Diego 2022
+# Big Data Hackathon for San Diego 2024
 ~~## OCT 08 (Day 1): Preliminary Proposal Submission Guidelines~~
 > - Get a markdown template, [proposal_submission_form_2022.md](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/master/templates/proposal_submission_form_2022.md), and custermize and place it in your team GitHub repository **by 4:30 p.m.**
 > - Each team's proposal will be introduced by the organizers. 
