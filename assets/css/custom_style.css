@@ -1,0 +1,88 @@
+/* Custom table styling */
+.custom-table1 {
+    width: 35%;
+    margin: 20px auto auto auto; /*top right bottom left*/
+    border-collapse: collapse;
+    /*border-collapse: separate;*/
+    border: none;
+    background-color: transparent;
+    /*
+    border-spacing: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    */
+    /*background-color: #fafafa;*/
+}
+
+.custom-table1 thead {
+    background-color: transparent;
+    border: none;
+    /*background: #4f4f4f;
+    color: #fff;*/
+    /*background-color: #2ecc71;
+    color: white;*/
+}
+
+.custom-table1 tr, .custom-table1 th, .custom-table1 td {
+    background-color: transparent;
+    border: none;
+}
+
+/*
+.custom-table1 tr {
+    border: none;
+    *border-top: solid 1px #eee;
+}
+*/
+
+
+/*
+.custom-table1 th {
+    text-align: left;
+    padding: 0.5em 1em 0.5em 1em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+}
+
+
+.custom-table1 td {
+    padding: 0.5em 1em 0.5em 1em;
+}
+*/
+
+
+.custom-table1 tr:first-child {
+    border: none;
+    color: #3e3e3e;
+    border-top: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.custom-table1 tr:first-child td {
+    padding-bottom: 0.5em;
+}
+
+.custom-table1 tr:nth-child(n+2) {
+    color: #3e3e3e;
+    border: none;
+    background-color: transparent;
+    font-size: 1.0em;
+    /*font-weight: bold;*/
+    /*background-color: #f1f1f1;*/
+}
+
+.custom-table1 tr:hover {
+    /*
+    background-color: #e0e0e0;
+    */
+}
+
+.custom-table1 caption {
+    /*
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    */
+}
+
