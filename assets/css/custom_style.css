@@ -86,3 +86,80 @@
     */
 }
 
+/* Custom container */
+.custom-container1 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    /*border: 1px solid #ccc;*/
+    text-align: left;
+    /*background-color: white; transparent;*/
+    background-color: transparent;
+    box-shadow: none;
+
+    font-family: initial; /* Reset the font family */
+    font-size: 1.2em;
+    line-height: 1.75em;
+    color: black;
+
+
+}
+
+
+
+/* Custom ordered list class */
+.custom-ol1 {
+    counter-reset: custom-counter;
+    list-style: none;
+    padding-left: 40px;
+}
+
+.custom-ol1 li {
+    counter-increment: custom-counter;
+    margin-bottom: 30px;
+}
+
+/* Add custom bold number before each list item */
+.custom-ol1 li::before {
+    content: counter(custom-counter) ". "; /* Display the counter with a period */
+    font-weight: bold; /* Make the number bold */
+    color: black; /* Set color for the number */
+}
+
+
+
+/* Container for the logos */
+.logo-row {
+    display: flex; /* Use Flexbox to align logos horizontally */
+    justify-content: space-around; /* Evenly space logos */
+    align-items: flex-start; /* Vertically align logos */
+    gap: 20px;
+}
+
+/* Style for each logo container */
+.logo-container {
+    /*background-color: white;*/ /* Set background color to white */
+    margin: 0;
+    padding: 0; /* Add padding around the image */
+    border-radius: 5px; /* Optional: Rounded corners */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);*/ /* Optional: Light shadow */
+}
+
+/* Ensure the logos have the same size */
+.logo-row img {
+    width: auto;
+    height: 50px;
+    /*
+    width: 100px;
+    height: auto;
+     */
+}
+
+/* Optional: Add padding between the logos */
+.logo-row > div {
+    padding: 10px;
+}
