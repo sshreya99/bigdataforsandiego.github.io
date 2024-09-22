@@ -4,14 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon FAQ</title>
+    <script src="../js/ie/html5shiv.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/custom_style.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="../css/ie9.css"/><![endif]-->
+
+    <!-- Scripts -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.scrolly.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/skel.min.js"></script>
+    <script src="../js/skel-viewport.min.js"></script>
+    <script src="../js/util.js"></script>
+    <!--[if lte IE 8]>
+    <script src="../js/ie/respond.min.js"></script><![endif]-->
+    <script src="../js/main.js"></script>
+
     <style>
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 20px;
+            padding: 1.5em;
         }
-        .container {
+
+        ol {
+            list-style-type: decimal;
+            padding-left: 10px;
+        }
+
+        .h1_faq {
+            text-align: center;
+            color: darkred;
+            margin: 1em;
+        }
+        .container_faq {
             background-color: #fff;
             padding: 20px;
             border-radius: 10px;
@@ -19,125 +52,197 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        h1 {
-            text-align: center;
-            color: darkred;
-        }
-        .question {
+        .question_head {
+            text-align: left;
             font-weight: bold;
+            cursor: pointer;
+            /*color: blue;*/
+            text-decoration: underline;
             color: #333;
             margin-top: 20px;
             margin-bottom: 10px;
         }
+        .question {
+            text-align: left;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
         .answer {
+            text-align: left;
             color: #555;
             line-height: 1.6;
             margin-bottom: 20px;
         }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #777;
-            font-size: 12px;
-        }
+
     </style>
 </head>
+
 <body>
+    <div class="wrapper style1 first" style="padding: 0 0">
+        <article class="container" style="margin-bottom: 0;">
+            <div class="row" style="width:100%; display: flex; justify-content: center; align-items: center;">
+                <img src='../../images/big_data_2024_clip.png' style="width:70%; margin: 0 auto; padding:0;" alt=""/>
+            </div>
+        </article>
 
-<div class="container">
-    <h1>Hackathon FAQ</h1>
+        <article class="wrapper style3" style="padding: 50px 50px; margin: 0">
 
-    <div class="question">
-        How do I form a team?
-    </div>
-    <div class="answer">
-        You can either form a team before the Hackathon and register together, or if you don’t have a team, register individually.
-        During a live Zoom meeting on October 4, 2024, participants needing team members will have the opportunity to post
-        about themselves and connect with others to form a team.
-    </div>
+            <div class="container_faq">
+                <h1 class="h1_faq">Hackathon FAQ</h1>
+                <hr>
+                <div class="question_head">
+                    <ol class="question_head">
+                        <li><a href="#faq1">How do I form a team?</a></li>
+                        <li><a href="#faq2">What if I don’t have a team? What can I do?</a></li>
+                        <li><a href="#faq3">How old do I need to be to participate in the Hackathon?</a></li>
+                        <li><a href="#faq4">How old do I need to be to win prizes in the Hackathon?<</a></li>
+                        <li><a href="#faq5">What if I want to change teams?</a></li>
+                        <li><a href="#faq6">What is the minimum and maximum number of team members required for the Hackathon?</a></li>
+                        <li><a href="#faq7">If my team doesn’t continue in the Hackathon, how can I still participate?</a></li>
+                        <li><a href="#faq8">Can my team be eligible for multiple awards?</a></li>
+                        <li><a href="#faq9">How do we obtain the award money if our team wins an award?</a></li>
+                        <li><a href="#faq10">Who do I contact if I have more questions about team formation?</a></li>
 
-    <div class="question">
-        What if I don’t have a team? What can I do?
-    </div>
-    <div class="answer">
-        If you don't have a team, you can still register.
-        Organizers will review registration information and create teams for participants who don't have team members,
-        taking into consideration their skill sets (and age, if applicable).
+                    </ol>
+                </div>
+                <hr>
 
-        On October 4 at 2 pm, organizers will post a Google Sheet listing all teams formed from
-        individual participants and teams with additional members.
-        Organizers will encourage these teams to communicate with each other and finalize their team compositions by
-        October 9 if any adjustments are needed.
-    </div>
+                <div id="faq1" class="question">
+                    1. How do I form a team?
+                </div>
+                <div class="answer">
+                    You can either form a team before the Hackathon and register together, or if you don’t have a team, register individually.
+                    During a live Zoom meeting on October 4, 2024, participants needing team members will have the opportunity to post
+                    about themselves and connect with others to form a team.
+                </div>
 
-    <div class="question">
-        How old do I need to be to participate in the Hackathon?
-    </div>
-    <div class="answer">
-        You must be at least 13 years old to participate. If you are under 18,
-        a parent or guardian must sign a consent form for your participation.
-    </div>
+                <div id="faq2" class="question">
+                    2. What if I don’t have a team? What can I do?
+                </div>
+                <div class="answer">
+                    If you don't have a team, you can still register.
+                    Organizers will review registration information and create teams for participants who don't have team members,
+                    taking into consideration their skill sets (and age, if applicable).
 
-    <div class="question">
-        How old do I need to be to win prizes in the Hackathon?
-    </div>
-    <div class="answer">
-        The same age requirement applies: you must be at least 13 years old,
-        and those under 18 need to submit a Parent Consent Agreement Form to be eligible for prizes.
-    </div>
+                    On October 4 at 2 pm, organizers will post a Google Sheet listing all teams formed from
+                    individual participants and teams with additional members.
+                    Organizers will encourage these teams to communicate with each other and finalize their team compositions by
+                    October 9 if any adjustments are needed.
+                </div>
 
-    <div class="question">
-        What if I want to change teams?
-    </div>
-    <div class="answer">
-        If you need to make changes to your team, you should discuss them during the team formation process
-        after the team list is shared on October 4.
-        You may also reach out to the organizers if you need further assistance.
-    </div>
+                <div id="faq3" class="question">
+                    3. How old do I need to be to participate in the Hackathon?
+                </div>
+                <div class="answer">
+                    You must be at least 13 years old to participate. If you are under 18,
+                    a parent or guardian must sign a consent form for your participation.
+                </div>
 
-    <div class="question">
-        If my team doesn’t continue in the Hackathon, how can I still participate?
-    </div>
-    <div class="answer">
-        You can contact Dr. Nara (<a href="mailto:anara@sdsu.edu">anara@sdsu.edu</a>) to discuss options for rejoining or forming a new team.
-        <!--You can contact Dr. Park (<a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>) to discuss options for rejoining or forming a new team.-->
-    </div>
+                <div id="faq4" class="question">
+                    4. How old do I need to be to win prizes in the Hackathon?
+                </div>
+                <div class="answer">
+                    The same age requirement applies: you must be at least 13 years old,
+                    and those under 18 need to submit a Parent Consent Agreement Form to be eligible for prizes.
+                </div>
 
-    <div class="question">
-        What is the minimum and maximum number of team members required for the Hackathon?
-    </div>
-    <div class="answer">
-        Teams can have a maximum of 4 members. We recommend working in teams, but if you have a specific reason for working alone,
-        reach out to Dr. Nara for special arrangements.
-    </div>
+                <div id="faq5" class="question">
+                    5. What if I want to change teams?
+                </div>
+                <div class="answer">
+                    If you need to make changes to your team, you should discuss them during the team formation process
+                    after the team list is shared on October 4.
+                    You may also reach out to the organizers if you need further assistance.
+                </div>
 
-    <div class="question">
-        Can my team be eligible for multiple awards?
-    </div>
-    <div class="answer">
-        Yes, teams can be eligible for multiple awards as long as they meet the criteria for each category.
-    </div>
+                <div id="faq6" class="question">
+                    6. If my team doesn’t continue in the Hackathon, how can I still participate?
+                </div>
+                <div class="answer">
+                    You can contact Dr. Nara (<a href="mailto:anara@sdsu.edu">anara@sdsu.edu</a>) AND
+                    (Dr. Park (<a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>) to discuss options for rejoining or forming a new team.
+                    <!--You can contact Dr. Park (<a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>) to discuss options for rejoining or forming a new team.-->
+                </div>
 
-    <div class="question">
-        How do we obtain the award money if our team wins an award?
-    </div>
-    <div class="answer">
-        The award distribution process will be explained at the Hackathon. Typically, the prize will be divided among the team members.
-    </div>
+                <div id="faq7" class="question">
+                    7. What is the minimum and maximum number of team members required for the Hackathon?
+                </div>
+                <div class="answer">
+                    Teams can have a maximum of 4 members. We recommend working in teams, but if you have a specific reason for working alone,
+                    reach out to Dr. Nara AND Dr. Park for special arrangements.
+                </div>
 
-    <div class="question">
-        Who do I contact if I have more questions about team formation?
+                <div id="faq8" class="question">
+                    8. Can my team be eligible for multiple awards?
+                </div>
+                <div class="answer">
+                    Yes, teams can be eligible for multiple awards as long as they meet the criteria for each category.
+                </div>
+
+                <div id="faq9" class="question">
+                    9. How do we obtain the award money if our team wins an award?
+                </div>
+                <div class="answer">
+                    The award distribution process will be explained at the Hackathon.
+                    Typically, the prize will be divided among the team members.
+                </div>
+
+                <div id="faq10" class="question">
+                    10. Who do I contact if I have more questions about team formation?
+                </div>
+                <div class="answer">
+                    For any additional questions, you can reach out to Dr. Nara at (<a href="mailto:anara@sdsu.edu">anara@sdsu.edu</a>) AND
+                    Dr. Park at (<a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>).
+                    <!--For any additional questions, you can reach out to Dr. Park at <a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>.-->
+                </div>
+
+            </div>
+        </article>
+
+        <div class="wrapper style4" style="padding: 100px 30px">
+            <article>
+                <div class="logo-container" >
+                    <div class="row text-center"> <!-- Center logos and make them responsive -->
+                        <!-- Logo 1 -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                            <div class="row logo logo-row">
+                                <div class="logo-container">
+                                    <a href='https://www.sdsu.edu/' target="_blank" rel="noopener noreferrer">
+                                        <img src="../../images/sponsor_logos/sdsu_primary_logo_h120.png" alt="SDSU logo"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Logo 2 -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                            <div class="row logo logo-row">
+                                <div class="logo-container">
+                                    <a href='https://humandynamics.sdsu.edu/' target="_blank" rel="noopener noreferrer">
+                                        <img src="../../images/sponsor_logos/hdma_h120.png" alt="HDMA logo"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Logo 3 -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                            <div class="row logo logo-row">
+                                <div class="logo-container">
+                                    <a href='https://ziplaunchpad.sdsu.edu/' target="_blank" rel="noopener noreferrer">
+                                        <img src="../../images/sponsor_logos/ZIP-Rocket-Logo_h120.png" alt="ZIP Launchpad logo"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    &copy; 2024 HDMA. All rights reserved.
+                </footer>
+            </article>
+        </div>
     </div>
-    <div class="answer">
-        For any additional questions, you can reach out to Dr. Nara at <a href="mailto:anara@sdsu.edu">anara@sdsu.edu</a>.
-        <!--For any additional questions, you can reach out to Dr. Park at <a href="mailto:jpark1200@sdsu.edu">jpark1200@sdsu.edu</a>.-->
-    </div>
-
-</div>
-
-<footer>
-    &copy; 2024 Hackathon. All rights reserved.
-</footer>
-
 </body>
 </html>

@@ -140,6 +140,7 @@
 /* Style for each logo container */
 .logo-container {
     /*background-color: white;*/ /* Set background color to white */
+    background-color: transparent !important;
     margin: 0;
     padding: 0; /* Add padding around the image */
     border-radius: 5px; /* Optional: Rounded corners */
