@@ -12,8 +12,10 @@
 ![bigdatahackathon4sd](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/bigdatahackathon_sd_2024.png?raw=true "Big Data Hackathon for San Diego 2024")
 <img height="10%" width="80%" alt="HDMA" src="https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/main/templates/img/hdma2.png?raw=true"> 
 
+<!--
 #### Theme: Enhancing Healthcare’s Digital Front Door
 #### - Digital solutions to help increase access, manage health, and improve patient satisfaction along the healthcare journey -  
+-->
 
 #### Hackathon Five CORE Themes. `CHECK ONE or TWO QUESTIONS (insert x in [ ])`.
 - [ ] Access to care
