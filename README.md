@@ -1,7 +1,7 @@
 # Big Data Hackathon for San Diego 2024
-<!-- ~~## OCT 12 (Day 1): Preliminary Proposal Submission Guidelines~~ -->
-## OCT 12 (Day 1): Preliminary Proposal Submission Guidelines
-> - Get a markdown template, [proposal_submission_form_2024.md](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/master/templates/proposal_submission_form_2024.md), and custermize and place it in your team GitHub repository **by 4:30 p.m.**
+<!-- ~~## OCT 12 (Day 1): Proposal Submission Guidelines~~ -->
+## OCT 12 (Day 1): Proposal Submission Guidelines
+> - Get a markdown template, [proposal_submission_form_2024.md](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/master/templates/proposal_submission_form_2024.md), and customize and place it in your team GitHub repository **by 4:30 p.m.**
 > - Each team's proposal will be introduced by the organizers. 
 
 > - For a proposal, please provide us with the following:
@@ -12,8 +12,9 @@
 >   - A visual that shows what your idea is (can be a sketch, photo, wireframe, etc.)
 > - Make sure to think about the Hackathon theme, how this will help the user experience, how data will be incorporated and what problem it aims to solve. 
 
-<!--
+
 <!-- ~~## OCT 19: Confirmation Form Submission~~ -->
+<!--
 ## OCT 19: Confirmation Form Submission 
 > - Complete a Google Form sent by the organizer to your registered email address
 > - EACH TEAM must submit ONE FORM **by OCT 12, 11:59:59 p.m.** in order to be eligible to present your work on Saturday, Oct. 15.
