@@ -1,8 +1,8 @@
 # Big Data Hackathon for San Diego 2024
 <!-- ~~## OCT 12 (Day 1): Proposal Submission Guidelines~~ -->
 ## OCT 12 (Day 1): Proposal Submission Guidelines
-> - Get a markdown template, [proposal_submission_form_2024.md](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/master/templates/proposal_submission_form_2024.md), and customize and place it in your team GitHub repository **by 4:30 p.m.**
-> - Customize the markdown template and rename it as README.md to replace the original README.md file.
+> - Get a markdown template, [proposal_submission_form_2024.md](https://github.com/BigDataForSanDiego/bigdataforsandiego.github.io/blob/master/templates/proposal_submission_form_2024.md), which should be available in your GitHub team repository
+> - Customize the template and rename it as README.md to replace the original README.md file **by 4:30 p.m.**
 
 > - For a proposal, please provide us with the following:
 >   - Your team name and members
